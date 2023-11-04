@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.container{
+    background: black;
+    margin: 0;
+    
+}
+
+.post{
+    display: flexbox;
+    width: 400px;
+    height: 650px;
+    margin: auto;
+    background-color: white;
+}
+.post_header{
+    display: flex;
+}
+
+.title__logo{
+    width: 20%;
+     margin: 10px;
+}
+
+.title__cuenta{
+    margin: auto;
+    padding-top: 5px;
+}
+
+.title__post{
+    margin-right: 65%;
+}
+
+.menu__header{ 
+    width: 20%;
+    padding: 10px;
+}
+
+.icon__post{
+    display: flex;
+    margin: 10px;
+}
+.icon__left{
+    /* margin-right: 5px; */
+}
+.icon__right{
+    margin-left: 75%;
+}
+i{
+    font-size: 20px;
+}
+.likes__post, .text__description{
+    margin: 10px;
+}
